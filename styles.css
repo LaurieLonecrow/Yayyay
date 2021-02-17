@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  height: 1900px;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/68819/3d_space_5.jpg);*/
+  text-align: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden!important;
+  display: block;
+}
+
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  z-index: 2;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding: 0.2em 0.05em 0.1em 0.05em;
+  overflow: hidden;
+  color: #00ffff;
+  font-weight: 200;
+  font-family: 'Mali', cursive;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0;
+  padding-bottom: 50px;
+  color: #b4eb34;
+  font-weight: 700;
+  font-family: 'Mali', cursive;
+}
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+  color: #ae34eb;
+}
+
+.clouds-1 {
+  padding-top: 5rem;
+}
