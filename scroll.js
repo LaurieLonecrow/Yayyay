@@ -4,7 +4,7 @@ var tl = anime.timeline();
 var textWrapper = document.querySelector('.ml9 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-  tl.add({
+tl.add({
     targets: '.ml9 .letter',
     scale: [0, 1],
     duration: 1500,
@@ -21,7 +21,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     var textWrapper = document.querySelector('.ml7 .letters');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-      tl.add({
+     tl.add({
         targets: '.ml7 .letter',
         translateY: ["1.1em", 0],
         translateX: ["0.55em", 0],
@@ -103,12 +103,18 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
             delay: 100
           });
 
+
 tl.add({
   targets: '.space',
   translateY: [500,-1200],
   duration: 9500,
   easing: "easeInExpo",
-  delay: 500,
+},"+=2000");
+
+tl.add({
+  targets: '.spaceship',
+  rotate: '25turn',
+  duration: 8500,
   direction: 'alternate',
-  loop: true,
+  easing: 'easeInOutExpo'
 });
