@@ -80,10 +80,6 @@ body {
   padding-top: 5rem;
 }
 
-.clouds-3 img {
-  position: absolute;
-  overflow-x: hidden;
-}
 
 /* SCROLL DOWN */
 .scroll-down {
@@ -93,7 +89,6 @@ body {
   transform: translate(-50%, 0);
   color: #000;
   font-size: 16px;
-  z-index: 100;
   opacity: 0;
   animation: fadeIn 2s ease 12s forwards;
   -webkit-animation: fadeIn 2s ease 12s forwards;
@@ -108,13 +103,14 @@ body {
 }
 
 .arrow {
-  position: relative;
+  position: sticky;
   top: 10px;
   padding-left: 50px;
   margin: 0 auto;
   font-size: 12px;
   animation: downArrow 2.2s cubic-bezier(1, 0, 0, 1) infinite;
   animation-delay: 10s;
+  z-index: 10;
 }
 
 @keyframes downArrow {

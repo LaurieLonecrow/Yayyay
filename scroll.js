@@ -105,7 +105,10 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 
 tl.add({
   targets: '.space',
-  translateY: -2000,
+  translateY: [500,-1200],
   duration: 9500,
   easing: "easeInExpo",
+  delay: 500,
+  direction: 'alternate',
+  loop: true,
 });
