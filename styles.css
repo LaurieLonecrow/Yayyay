@@ -104,6 +104,15 @@ body {
   }
 }
 
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .arrow {
   position: sticky;
   top: 10px;
@@ -149,6 +158,8 @@ body {
   animation-delay: 30s;
 }
 
+.out {animation: fadeOut 2s ease 30s forwards;
+animation-delay: 20s;}
 
 @media screen and (max-width: 600px) {
   .container {
