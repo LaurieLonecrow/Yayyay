@@ -104,9 +104,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
           });
 
 tl.add({
-  targets: '.song',
-  opacity: [0,1],
-  duration: 500,
-  scaleIn: [0.2, 1],
+  targets: '.space',
+  translateY: -2000,
+  duration: 9500,
   easing: "easeInExpo",
 });
