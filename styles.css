@@ -154,6 +154,9 @@ body {
 }
 
 .delay {
+  font-weight: 200;
+  font-family: 'Mali', cursive;
+  color: #00ffff;
   animation: fadeIn 2s ease 30s forwards;
   animation-delay: 30s;
 }
